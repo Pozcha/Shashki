@@ -58,7 +58,7 @@ function dragleave(event) {
 //   event.target.classList.remove('cellBlack');
 //   event.target.classList.remove('hovered');
 //   console.log(event)
-//   event.target.classList.add('figureBlack');
+//   event.target.classList.add('figureBlack');1
 //   event.target.append(figuresBlack);
 //   event.target.append(figuresWhite);
 // }
