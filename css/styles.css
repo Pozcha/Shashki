@@ -1,0 +1,135 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  min-width: 100%;
+  margin: 0 auto;
+}
+
+.mainOne {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainTwo {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainThree {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainFour {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainFive {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainSix {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainSeven {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.mainEight {
+  display: flex;
+  width: 100%;
+  height: 120px;
+}
+
+.cellBlack {
+  background-color: rgb(34, 31, 26);
+  width: 9%;
+  margin: 0;
+  padding: 0;
+}
+
+.cellWhite {
+  background-color: rgb(236, 190, 91);
+  width: 9%;
+  margin: 0;
+  padding: 0;
+}
+
+.figureBlackOne {
+  cursor: grab;
+  margin: 6px 35px;
+  height: 110px;
+  width: 110px;
+  background-color: black;
+  border-radius: 110px;
+}
+
+.figureBlackTwo {
+  cursor: grab;
+  margin: 6px 35px;
+  height: 110px;
+  width: 110px;
+  background-color: black;
+  border-radius: 110px;
+}
+
+.figureBlack {
+  cursor: grab;
+  margin: 6px 35px;
+  height: 110px;
+  width: 110px;
+  background-color: black;
+  border-radius: 110px;
+}
+
+.figureWhite {
+  cursor: grab;
+  margin: 6px 35px;
+  height: 110px;
+  width: 110px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 110px;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-radius: 10px;
+  border-top: 2px solid rgb(255, 255, 255);
+}
+
+.holdB {
+  margin: 0 auto;
+  height: 110px;
+  width: 110px;
+  background-color: black;
+  border-radius: 200px;
+  animation: background 3s infinite alternate;
+  box-shadow: 0 -200px 100px -120px rgb(0, 0, 0) inset;
+}
+
+.holdW {
+  margin: 0 auto;
+  height: 110px;
+  width: 110px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 200px;
+  animation: background 3s infinite alternate;
+  box-shadow: 0 -200px 100px -120px rgb(255, 255, 255) inset;
+}
